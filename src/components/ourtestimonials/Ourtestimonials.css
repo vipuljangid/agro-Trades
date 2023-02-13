@@ -1,0 +1,253 @@
+/* .main-container-work-wrapper{
+  background-color: #F7F7F7;
+}
+
+
+.react-multiple-carousel__arrow {
+  position: absolute;
+  outline: 0;
+  transition: all 0.5s;
+  border-radius: 35px;
+  z-index: 1000;
+  border: 0;
+  background: #bfebfa;
+  min-width: 30px;
+  min-height: 30px;
+  opacity: 1;
+  font-size: 0px;
+  cursor: pointer;
+}
+
+.react-multiple-carousel__arrow :hover {
+  background: #005082;
+}
+.react-multi-carousel-item {
+  margin: auto;
+}
+
+.our-test-wrapper-000 {
+  position: relative;
+  min-height: 350px;
+  height: 100%;
+}
+.our-test-wrapper-0-1 {
+  background-color: #6386B6;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  right: -93px;
+  padding: 10px 0px;
+}
+
+.our-test-wrapper-0 {
+  position: absolute;
+  background-color: #ECF7FF;
+  display: flex;
+  left: 0px;
+  right: 0px;
+  top: 20px;
+  bottom: 80px;
+  align-items: center;
+  box-shadow: 0px 0px 20px 6px rgb(157 157 157 / 52%);
+}
+
+.carousel-container12 {
+  margin-left: -144px;
+}
+
+.our-test-items-wrapper-0 {
+  border-radius: 18px;
+  box-shadow: 0px 0px 12px 2px transparent;
+  margin: 0 10px;
+}
+.our-test-items-wrapper-0 img{
+  border-radius: 12px;
+}
+
+
+.our-test-items-wrapper-0-0 {
+  width: 60px;
+}
+.our-test-items-wrapper-0-0 img {
+  height: 60px;
+}
+.our-test-wrapper-0 div img {
+  position: relative;
+  z-index: 1;
+  width: 70%;
+}
+
+
+.our-test-heading-t-0 div:before {
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-position: center center;
+  content: "";
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  visibility: visible;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+}
+
+.SaveHome-Meeto-Corosulpopup {
+  position: fixed;
+  top: 0;
+  background: rgba(239, 239, 240, 0.6);
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+}
+
+.close-btn {
+  color: red;
+  font-size: 20px;
+  float: right;
+  font-weight: bold;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+
+.SaveHome-Meeto-imageBtm {
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  background: transparent;
+  z-index: 99999;
+}
+
+.SaveHome-Meeto-Corosulpopupopacity {
+  opacity: 1;
+}
+.our-test-heading-t-0 :hover img::after {
+  opacity: 1;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .our-test-wrapper-0-1 {
+    right: 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .our-test-wrapper-0-1 {
+    display: block;
+    position: relative;
+  }
+  .our-test-heading-t-0 {
+    text-align: center !important;
+    margin: auto;
+  }
+  .our-test-heading-t-0 img {
+    margin: auto;
+
+    width: 40% !important;
+    margin-top: 55px;
+    margin-bottom: 15px;
+  }
+  .our-test-heading-t-0 div:before {
+    width: 100%;
+    margin: auto;
+    background-position: center center;
+  }
+  .our-test-wrapper-0 {
+    display: block;
+  }
+  .carousel-container12 {
+    margin-left: 0px !important;
+  }
+  .testimonials-wrapper {
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 567px) {
+  .our-test-heading-t-0 img {
+    margin: auto;
+    width: 60% !important;
+    margin-top: 55px;
+  }
+  .our-test-heading-t-0 div:before {
+    width: 100%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+
+    background-size: 60px;
+    margin-top: 30px;
+
+    background-position: center center;
+  }
+  .our-test-wrapper-0 {
+    display: block;
+  }
+
+  .our-test-wrapper-0-1 {
+    right: 0px;
+    padding: 7px 0px;
+  }
+ 
+  .our-test-heading-t-0 {
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: center;
+  }
+  .our-test-heading-0 {
+    padding: 0px;
+    color: #005082;
+  }
+  .our-test-items-wrapper-0 {
+    padding-left: 15px;
+    padding-right: 00px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .our-test-items-wrapper-0 div p {
+    font-size: 12px !important;
+  }
+  .carousel-container12 {
+    margin-left: 0px !important;
+  }
+  .testimonials-wrapper {
+    padding-bottom: 0px;
+  }
+} */
+
+.carousalWrapper{
+  background-color: #F7F7F7;
+  padding-bottom: 75px;
+}
+
+.our-test-items-wrapper-0{
+  width: 90%;
+  margin: 0 auto;
+}
+.our-test-items-wrapper-0 img{
+  width: 100%;
+  border-radius: 12px;
+   
+}
+  .our-test-items-wrapper-0  :hover{
+  box-shadow: 0px 0px 15px 3px rgb(216, 216, 216);
+  cursor: pointer;
+ 
+   
+}
+
+ .workHeading{
+  display: inline-block;
+  border-bottom: 2px solid orange;
+}
+
+@media only screen and (max-width: 767px) {
+  .workHeading{
+ font-size: 22px;   
+}
+}
+

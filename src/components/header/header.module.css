@@ -1,0 +1,37 @@
+.css {
+  /* Decore */
+
+  position: absolute;
+  width: 766.31px;
+  height: 872.58px;
+  left: 888px;
+  top: -215px;
+
+  background: #fff1da;
+}
+
+.navbar {
+  /* background-image: url("./public/images/cssDesign.png") ; */
+  /* box-shadow: 1px 1px 64px -10px grey; */
+  background-color: transparent !important;
+}
+
+.HeaderLogo {
+  max-width: 150px;
+}
+.navbarDropDown {
+  /* margin-right: 22%; */
+}
+
+@media only screen and (max-width: 1500px) {
+  .navbarDropDown {
+    margin-right: 18%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .navbarDropDown {
+    background-color: whitesmoke;
+    padding: 10px 14px;
+    margin-right: 0;
+  }
+}
