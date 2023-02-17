@@ -36,74 +36,70 @@ const CompanyPage = () => {
       </div>
 
       {/* About us */}
-     <div className="commonSpace">
-     <div className={`container`}>
-        <div className="text-center">
-          <h2 className={`text-center mb-4 ${styles.aboutHeading}`}>
-            About Us
-          </h2>
-        </div>
-        <div className={styles.textCompanyDescription}>
-          <p>
-            <strong>Raj Agro</strong> is a subsidiary firm of Raj Trader which
-            was established in 1978, and since then we have been engaged in the
-            wholesale of rice, rice flakes, pulses, flour, wheat, maize, and
-            other food grains. Taking a step forward, we have ventured into
-            international trade, importing chickpeas, yellow peas, green peas
-            from various countries such as Canada, Australia, Russia, Turkey,
-            and others.
-          </p>
-          <p>
-            {" "}
-            We are a supplier of food grains to various distilleries and
-            institutions, including Pernod Ricard, United Spirits, Globus
-            Spirits, and other reputable distilleries.{" "}
-          </p>
+      <div className="commonSpace">
+        <div className="container commonSpace ">
+          <div className="text-center">
+            <h2 className={`text-center mb-4 ${styles.aboutHeading}`}>
+              About Us
+            </h2>
+          </div>
+          <div className={styles.textCompanyDescription}>
+            <p>
+              <strong>Raj Agro</strong> is a subsidiary firm of Raj Trader which
+              was established in 1978, and since then we have been engaged in
+              the wholesale of rice, rice flakes, pulses, flour, wheat, maize,
+              and other food grains. Taking a step forward, we have ventured
+              into international trade, importing chickpeas, yellow peas, green
+              peas from various countries such as Canada, Australia, Russia,
+              Turkey, and others.
+            </p>
+            <p>
+              {" "}
+              We are a supplier of food grains to various distilleries and
+              institutions, including Pernod Ricard, United Spirits, Globus
+              Spirits, and other reputable distilleries.{" "}
+            </p>
 
-          <p>
-            Our focus is to provide top-quality food grains to our clients, and
-            we take pride in our diverse product range that caters to the needs
-            of different industries. Our team works closely with our clients to
-            understand their specific requirements and offer tailored solutions
-            that meet their needs.
-          </p>
+            <p>
+              Our focus is to provide top-quality food grains to our clients,
+              and we take pride in our diverse product range that caters to the
+              needs of different industries. Our team works closely with our
+              clients to understand their specific requirements and offer
+              tailored solutions that meet their needs.
+            </p>
+          </div>
         </div>
-      </div>
 
-      {/* banner section */}
-      <div className="pt-4">
-        <div className="container">
-          {/* first div */}
-          <div className="d-flex justify-content-center">
-            <div className={`${styles.bannerImageWrapper}`}>
-              <img src="./images/banner1.webp" alt="" className="w-50 " />
-            </div>
-            {/* second banner */}
-            {/* <div className="d-flex justify-content-center">
+        {/* banner section */}
+        <div className="">
+          <div className="container">
+            {/* first div */}
+            <div className="d-flex justify-content-center align-items-center">
+              <div className={`${styles.bannerImageWrapper}`}>
+                <img src="./images/banner1.webp" alt="" />
+              </div>
+              {/* second banner */}
+              {/* <div className="d-flex justify-content-center">
             <div className={ `${styles.bannerImageWrapper}`} >
               <img src="./images/banner3.jpg" alt="" className="w-25 " />
             </div>
             </div> */}
 
-            {/* third div */}
-            <div className={styles.bannerImageWrapper}>
-              <img src="./images/banner2.webp" alt="" className="w-50" />
+              {/* third div */}
+              <div className={styles.bannerImageWrapper}>
+                <img src="./images/banner2.webp" alt="" className="mt-2" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-     </div>
       {/* banner section end*/}
 
       {/* foreign trade us */}
       <div className={styles.mainCompanyDesWrapper}>
         <div className={styles.companyDesWrapper}></div>
         <div className={styles.bgComapnyDescritpion}>
-          <div className="">
-            
-
-            {/* <Products /> */}
-          </div>
+          <div className="">{/* <Products /> */}</div>
 
           <div
             className={`container pt-2 bg-1 commonSpace ${styles.frogienContainerwrapper} `}
@@ -129,47 +125,53 @@ const CompanyPage = () => {
         </div>
       </div>
 
+      {/* products */}
+      <div className={styles.bg1}>
+        <Products />
+        {/* product end  */}
+      </div>
+
       <OurTestimonials />
 
       {/* our clinent`` */}
       <div className={styles.bg1}>
-      <div className="commonSpace">
-        <div className="text-center">
-          <h2 className={`text-center mb-4 ${styles.aboutHeading}`}>
-            Foreign Trade
-          </h2>
-        </div>
-        <div className="container">
-          <div className="row justify-content-center align-items-center">
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className={styles.clientDivWrapper}>
-                <div>
-                  {" "}
-                  <img src="./images/pernod.webp" alt="pernod" />
+        <div className="commonSpace">
+          <div className="text-center">
+            <h2 className={`text-center mb-4 ${styles.aboutHeading}`}>
+              Foreign Clients
+            </h2>
+          </div>
+          <div className="container">
+            <div className="row justify-content-center align-items-center">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className={styles.clientDivWrapper}>
+                  <div>
+                    {" "}
+                    <img src="./images/pernod.webp" alt="pernod" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12 ">
+                <div className={styles.clientDivWrapper}>
+                  <div>
+                    {" "}
+                    <img src="./images/united.webp" alt="pernod" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div className={styles.clientDivWrapper}>
+                  <div>
+                    {" "}
+                    <img src="./images/global.webp" alt="pernod" />
+                  </div>
                 </div>
               </div>
             </div>
-
-           <div className="col-lg-4 col-md-6 col-sm-12 ">
-           <div className={styles.clientDivWrapper}>
-              <div>
-                {" "}
-                <img src="./images/united.webp" alt="pernod" />
-              </div>
-            </div>
-           </div>
-
-           <div className="col-lg-4 col-md-6 col-sm-12">
-           <div className={styles.clientDivWrapper}>
-              <div>
-                {" "}
-                <img src="./images/global.webp" alt="pernod" />
-              </div>
-            </div>
-           </div>
           </div>
         </div>
-      </div>
       </div>
 
       {/* our clinent end`` */}

@@ -57,13 +57,13 @@ const Products = () => {
   return (
     <div>
 
-      <div className='mb-5 container'>
-        <h1 className='text-center mt-3 mb-4'>Products We Deal In</h1>
+      <div className='pb-5 container'>
+        <h1 className='text-center pt-3 pb-4'>Products We Deal In</h1>
         <div className='row justify-content-center'>
         {
           ProductsDetail.map((items, index) => (
-              <div>
-            <div className='col-lg-3 col-md-4 col-sm-6  my-2 mb-3 ' >
+              // <div>
+            <div className='col-lg-3 col-md-4 col-sm-6 col-6  my-2 mb-3 ' >
                 <div className="card">
                   <img src={items.image} className="card-img"/>
                   <div className="card-info">
@@ -72,7 +72,7 @@ const Products = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            // </div>
           ))
 
         }
