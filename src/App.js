@@ -23,7 +23,7 @@ function App() {
         <div
           className="top-right-icon"
           style={{
-            backgroundImage: "url(./images/cssDesign.png)",
+            backgroundImage: "url(./images/cssDesign.webp)",
             backgroundSize: "cover",
             height: "280px",
             width: "190px",

@@ -3,49 +3,49 @@ import './products.css'
 
 const ProductsDetail = [
   {
-    image:"./images/products/rice.jpg",
+    image:"./images/products/rice.webp",
     alt:"Rice",
     title:"Rice",
     descrition:"Rice is a staple food for over half the world's population."
   },
   {
-    image:"./images/products/barley.jpg",
+    image:"./images/products/barley.webp",
     alt:"Barley",
     title:"Barley",
     descrition:"Barley is a cereal grain used for food, beverages, and animal feed"
   },
   {
-    image:"./images/products/maize.jpg",
+    image:"./images/products/maize.webp",
     alt:"Maize",
     title:"Maize",
     descrition:"Maize is a tall annual cereal plant that produces edible kernels"
   },
   {
-    image:"./images/products/chickPeas.jpg",
+    image:"./images/products/chickPeas.webp",
     alt:"Chick peas",
     title:"Chick peas",
     descrition:"Chickpeas are edible legume seeds used in various culinary applications."
   },
   {
-    image:"./images/products/quinoaSeed.jpg",
+    image:"./images/products/quinoaSeed.webp",
     alt:"Quinoa peas",
     title:"Quinoa peas",
     descrition:"Quinoa seeds are small, protein-rich grains with a nutty flavor."
   },
   {
-    image:"./images/products/asafoetidaSeeds.jpeg",
+    image:"./images/products/asafoetidaSeeds.webp",
     alt:"Asafoetida seeds",
     title:"Asafoetida seeds",
     descrition:"Asafoetida seeds are pungent, resinous spices used in cooking and medicine."
   },
   {
-    image:"./images/products/cuminSeeds.jpeg",
+    image:"./images/products/cuminSeeds.webp",
     alt:"Cumin seeds",
     title:"Cumin seeds",
     descrition:"Cumin seeds are aromatic, flavorful spices used in cooking and medicine."
   },
   {
-    image:"./images/products/psylliumHusk.jpg",
+    image:"./images/products/psylliumHusk.webp",
     alt:"Psyllium husk",
     title:"Psyllium husk",
     descrition:"Psyllium husk is a dietary fiber used to promote bowel regularity."

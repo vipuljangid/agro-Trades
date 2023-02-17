@@ -4,6 +4,10 @@
   /* height: 80vh; */
   padding: 75px 0px;
 }
+
+.frogienContainerwrapper{
+  
+}
 .Clientcontainerwrapper {
   display: flex;
   align-items: center;
@@ -47,6 +51,7 @@
   height: 60px;
   width: 200%;
   bottom: -2px;
+ 
   /* overflow-x: hidden; */
   position: relative;
   right: 50px;
@@ -70,6 +75,29 @@
  display: inline-block;
  text-align: center;
 }
+
+
+/* banner  styles */
+.bannerImageWrapper{
+  width: 90%;
+  text-align: center;
+  margin:auto;
+}
+
+.bannerImageWrapper img{
+width: 100%;
+/* border-radius: 42px; */
+
+}
+
+/* our client section */
+.clientDivWrapper div{
+  width: 90%;
+}
+.clientDivWrapper div img{
+  width: 100%;
+}
+
 
 /* media query */
 @media only screen and (max-width: 767px) {
@@ -111,6 +139,11 @@
 .containerwrapper{
     /* margin-top: 20px; */
     padding: 55px 0px;
-    padding-bottom: 22px;
+    /* padding-bottom: 22px; */
+}
+.clientDivWrapper div{
+  width: 155px !important;
+  margin: auto;
+  margin-bottom: 10px;
 }
 }

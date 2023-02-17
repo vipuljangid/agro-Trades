@@ -28,29 +28,29 @@ const OurTestimonials = () => {
 
   const WorkImage = [
     {
-      image: "./images/gallary/gallary1.jpeg",
+      image: "./images/gallary/gallary1.webp",
       alt: "image"
     },
 
     {
-      image: "./images/gallary/gallary2.jpeg",
+      image: "./images/gallary/gallary2.webp",
       alt: "image"
     },
     {
-      image: "./images/gallary/gallary3.jpeg",
+      image: "./images/gallary/gallary3.webp",
       alt: "image"
     },
     {
-      image: "./images/gallary/gallary4.jpeg",
+      image: "./images/gallary/gallary4.webp",
       alt: "image"
     },
     {
-      image: "./images/gallary/gallary5.jpeg",
+      image: "./images/gallary/gallary5.webp",
       alt: "image"
     },
 
     {
-      image: "./images/gallary/gallary6.jpeg",
+      image: "./images/gallary/gallary6.webp",
       alt: "image"
     }
 
@@ -135,7 +135,7 @@ const OurTestimonials = () => {
     //   </div>
     // </div>
 
-    <div className="carousalWrapper">
+    <div className="carousalWrapper commonSpace">
       <div className="text-center">
       <h2 className="text-center mb-4 workHeading"> Our Workshop</h2>
       </div>

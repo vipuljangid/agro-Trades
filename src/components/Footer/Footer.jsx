@@ -1,11 +1,11 @@
 import React from "react";
-// import facebookIcon from "../../../images/SubPages/Footer/facebookIcon.svg";
-// import twitterIcon from "../../../images/SubPages/Footer/twitterIcon.svg";
-// import linkdinIcon from "../../../images/SubPages/Footer/linkdinIcon.svg";
+// import facebookIcon from "../../../images/SubPages/Footer/facebookIcon.webp";
+// import twitterIcon from "../../../images/SubPages/Footer/twitterIcon.webp";
+// import linkdinIcon from "../../../images/SubPages/Footer/linkdinIcon.webp";
 // import { PopupButton } from "react-calendly";
 // import insta from "../../../images/logo/insta.webp";
 // import github from "../../../images/logo/logo_github (2).webp";
-// import hello from "../../../images/SubPages/Footer/hello.svg";
+// import hello from "../../../images/SubPages/Footer/hello.webp";
 import { BrowserRouter as Router, Route, Link, Routes, useLocation } from "react-router-dom";
 import "./Footer.css";
 import { Location } from "react-router-dom";
@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="container ">
           <div className="logo-wrpapper mb-5">
             <div className="footer-img-wrapper">
-              <img src="./images/logo.png" alt="Lakebrains Technologies" />
+              <img src="./images/logo.webp" alt="Lakebrains Technologies" />
             </div>
           </div>
           <div className="row  Footer-sub-wrapper-01 ">
@@ -93,7 +93,7 @@ export default function Footer() {
                   <button className="footer-social-btn ">
                     <img
                       className="facebooklogo"
-                      src="./images/facebookIcon.svg"
+                      src="./images/facebookIcon.webp"
                       alt="twiiter"
                       height="auto"
                       width="auto"
